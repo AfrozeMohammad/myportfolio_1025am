@@ -1,0 +1,185 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+    background-color: rgb(242, 173, 75);
+  }
+  
+  .image1{
+   
+        border-radius: 50%;
+        float: right;
+      
+  }
+  .container {
+    max-width: 960px;
+    margin: auto;
+    
+    /* background-color: rgb(12, 243, 89); */
+  }
+  
+  
+  header {
+    padding: 20px 0;
+    
+      
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+  
+  .nav-link {
+    color: #fff !important;
+    font-size: 1.5rem;
+  }
+  
+  .nav-link:hover {
+    color: #ccc !important;
+  }
+  
+  section {
+    padding: 40px 0;
+    font-size: 1.5rem;
+  }
+  
+  section h2 {
+    margin-bottom: 30px;
+  }
+  
+  .card {
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  footer {
+    padding: 20px 0;
+    color: #fff;
+  }
+  
+  /* Custom Background Colors */
+  .bg-light {
+    background-color: #fff !important;
+  }
+  
+  .bg-dark {
+    background-color: #343a40 !important;
+  }
+  
+  /* Custom Text Colors */
+  .text-white {
+    color: #fff !important;
+  }
+  
+  /* Skills Section */
+  .skills-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .skills-list li {
+    margin-bottom: 10px;
+  }
+  
+  /* Certifications Section */
+  .certifications-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .certifications-list li {
+    margin-bottom: 10px;
+  }
+  
+  /* Experience Section */
+  .experience-card {
+    margin-bottom: 20px;
+  }
+  
+  .experience-card .card-body {
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .experience-card .card-body:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  
+  
+  
+  .bgblue {
+    background: linear-gradient(135deg, #fffffff5, #3a4b8a, #ffffff98);
+    padding: 1px;
+    border-radius: 1.2rem;
+    box-shadow: 0px 1rem 1.5rem -0.9rem #000000e1;
+  }
+  
+  .bgblue .card {
+    font-size: 1rem;
+    color: #1b2e4f;
+    background: linear-gradient(135deg, #242d4e 43%, #242d4e 43%, #242d4e 43%); /* Adjusted color stops */
+    padding: 1.5rem;
+    border-radius: 1.8rem;
+    margin-bottom: 0; /* Remove the default margin-bottom */
+  }
+  
+  
+  
+  /* img {
+    border-radius: 50%;
+  } */
+  
+  
+  /* img {
+    float: right;
+  } */
+  
+  /* .container {
+    display: flex;
+    justify-content: flex-end;
+  } */
+  
+  .first{
+    border-radius: 90%;
+  }
+  .second{
+    border-radius: 90%;
+  }
+  
+  
+  .certification-image {
+    width: 350px;
+    height: 400px;
+    transition: transform 0.3s ease;
+  }
+  
+  /* Define hover effect */
+  .certification-image:hover {
+    transform: scale(1.1);
+  }
+  
+  
+  
+  .animated-globe {
+    width: 200px;
+    height: 200px;
+    /* background-image: url('C:\Users\afroze.md\Downloads\R.png'); */
+    background-size: cover;
+    animation: spin 10s linear infinite;
+  }
+  
+  @keyframes spin {
+    100% { transform: rotate(360deg); }
+  }
+  
+  .navbar-nav .active {
+    font-weight: bold;
+  }
